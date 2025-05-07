@@ -27,3 +27,12 @@ body{
     background-color: var(--secondary-colo-ligth);
     padding: 6.5em 6.5em 7.5rem;
 }
+
+.main-header, .main{
+    font-size: 1.6rem;
+}
+
+a {
+    color: inherit;
+}
+
