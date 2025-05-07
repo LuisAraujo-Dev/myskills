@@ -2,6 +2,7 @@
     --primary-color: #FF7833;
     --secondary-color: #31333B; 
     --secondary-colo-ligth: #444856; 
+    --third-color: #7b7b7b;
 }
 
 html {
@@ -63,4 +64,9 @@ a {
 .main-nav ul a:hover{
     background-color: var(--secondary-colo-ligth);
     padding-right: 1rem;
+}
+
+.main-nav li {
+    border-bottom: solid 1px var(--third-color);
+    padding: 0.4rem 0;
 }
