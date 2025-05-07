@@ -2,7 +2,7 @@
     --primary-color: #FF7833;
     --secondary-color: #31333B; 
     --secondary-colo-ligth: #444856; 
-    --third-color: #7b7b7b;
+    --third-color: #a9a7a7;
 }
 
 html {
@@ -69,4 +69,19 @@ a {
 .main-nav li {
     border-bottom: solid 1px var(--third-color);
     padding: 0.4rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--third-color);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+h2, h3, h4, h5, h6{
+    color: var(--primary-color);
+}
+
+h2 {
+    margin-top: 1rem;
 }
