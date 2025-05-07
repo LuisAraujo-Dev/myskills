@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #FF7833;
+    --secondary-color: #31333B; 
+    --secondary-colo-ligth: #444856; 
+}
+
+html {
+    font-size: 62.5%;
+}
