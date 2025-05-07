@@ -16,3 +16,14 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     min-height: 100vh;
 }
+
+.main-header {
+    flex: 0 0 26rem;
+    background-color: var(--secondary-color);
+}
+
+.main {
+    flex: 1 0;
+    background-color: var(--secondary-colo-ligth);
+    padding: 6.5em 6.5em 7.5rem;
+}
