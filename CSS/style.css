@@ -45,3 +45,22 @@ a {
     text-align: right;
     padding: 6rem 2rem 2rem;
 }
+
+.main-nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-nav ul a{
+    display: block;
+    padding: 1.2rem 0;
+    text-decoration: none;
+    transition: padding-right .2s, backgroud-color .4s;
+    background-color: transparent;
+    line-height: 1.7;
+}
+
+.main-nav ul a:hover{
+    background-color: var(--secondary-colo-ligth);
+    padding-right: 1rem;
+}
