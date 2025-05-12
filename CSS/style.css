@@ -146,4 +146,15 @@ span {
 
 .card_title {
     font-size: 1.75em;
+    margin-bottom: .5em;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    gap: 1.5em;
+    padding: 1.5rem 0;
 }
