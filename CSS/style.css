@@ -61,7 +61,7 @@ a {
     line-height: 1.7;
 }
 
-.main-nav ul a:hover{
+.main-nav ul a:hover, .main-nav a:focus{
     background-color: var(--secondary-colo-ligth);
     padding-right: 1rem;
 }
