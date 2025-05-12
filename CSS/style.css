@@ -133,4 +133,9 @@ span {
 .card {
     max-width: 740px;
     background-color: var(--secondary-color);
+    padding: 0;
+}
+
+.card_content {
+    padding: .75em 1em 1em;
 }
