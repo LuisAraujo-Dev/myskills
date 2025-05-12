@@ -137,5 +137,9 @@ span {
 }
 
 .card_content {
-    padding: .75em 1em 1em;
+    padding: .5em 1em 1em;
+}
+
+.card_content p, .card_title {
+    margin: 0;
 }
