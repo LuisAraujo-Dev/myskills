@@ -129,3 +129,8 @@ span {
     line-height: 1.6;
     text-align: justify;
 }
+
+.card {
+    max-width: 740px;
+    background-color: var(--secondary-color);
+}
