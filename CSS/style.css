@@ -187,3 +187,9 @@ span {
 .footer-credit a{
     text-decoration: none;
 }
+
+input, label, textarea {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
