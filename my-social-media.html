@@ -1,78 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Social Media</title>
 
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
     <header class="main-header">
-        <nav class="main-nav">
-            <a href="#"><img src="images/ChatGPT Image 26 de abr. de 2025, 18_56_52.png" alt="imagem do perfil do usuário" class="image-profile"></a>
+      <nav class="main-nav">
+        <a href="#"
+          ><img
+            src="images/ChatGPT Image 26 de abr. de 2025, 18_56_52.png"
+            alt="imagem do perfil do usuário"
+            class="image-profile"
+        /></a>
 
-            <ul>
-                <li><a href="index.html">Quem Sou</a></li>
-                <li><a href="experiences.html">Esperiências</a></li>
-                <li><a href="projects.html">Projetos</a></li>
-                <li><a href="certifications.html">Certificações</a></li>
-                <li><a href="my-social-media.html">Minhas Redes Sociais</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="index.html">Quem Sou</a></li>
+          <li><a href="experiences.html">Esperiências</a></li>
+          <li><a href="projects.html">Projetos</a></li>
+          <li><a href="certifications.html">Certificações</a></li>
+          <li><a href="my-social-media.html">Minhas Redes Sociais</a></li>
+        </ul>
+      </nav>
 
-        <div class="footer-credit">
-            <div>
-                <a href="https://www.instagram.com/luis.vinicius.santos" target="_blank">
-                    <img src="/images/insta.png" alt="instagram">
-                </a>
-                <a href="https://github.com/LuisAraujo-Dev" target="_blank">
-                    <img src="/images/igithub-removebg-preview.png" alt="github">
-                </a>
-                <a href="https://www.linkedin.com/in/lu%C3%ADs-ara%C3%BAjo-67207526a/" target="_blank">
-                    <img src="/images/Linkedin.png" alt="likedin">
-                </a>
-            </div>
-            <p>Feito por Luís Araújo</p>
+      <div class="footer-credit">
+        <div>
+          <a
+            href="https://www.instagram.com/luis.vinicius.santos"
+            target="_blank"
+          >
+            <img src="/images/insta.png" alt="instagram" />
+          </a>
+          <a href="https://github.com/LuisAraujo-Dev" target="_blank">
+            <img src="/images/igithub-removebg-preview.png" alt="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lu%C3%ADs-ara%C3%BAjo-67207526a/"
+            target="_blank"
+          >
+            <img src="/images/Linkedin.png" alt="likedin" />
+          </a>
         </div>
+        <p>Feito por Luís Araújo</p>
+      </div>
     </header>
     <main class="main">
-        <h1>Entre em contato</h1>
-        <article>
-            <div class="experiences">
+      <h1>Entre em contato</h1>
+      <article>
+        <div class="experiences">
+          <article>
+            <h2>Entre em contato</h2>
+            <div class="row">
+              <form action="">
+                <div class="row">
+                  <div>
+                    <label for="name">Nome</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Nome completo"
+                    />
+                  </div>
+                  <div>
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Seu melhor email"
+                      autocomplete="off"
+                    />
+                  </div>
+                </div>
+                <label for="mensage"> Deixe um comentário</label>
+                <textarea name="mensage" id="mensage" rows="6"></textarea>
 
-                <article>
-                    <h2>Entre em contato</h2>
-                    <div class="row">
-                        <form action="">
-                            <div class="row">
-                                <div>
-                                    <label for="name">Nome</label>
-                                    <input type="text" name="name" id="name" placeholder="Nome completo">
-                                </div>
-                                <div>    
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" placeholder="Seu melhor email" autocomplete="off">
-                                </div>
-                            </div>
-                                <label for="mensage"> Deixe um comentário</label>
-                                <textarea name="mensage" id="mensage" rows="6" ></textarea>
-
-                                <input type="submit" value="Enviar" class="btn">
-                        </form>
-                    </div>
-                </article>
-
-                  <h2 class="title-experiences">Outras formas de contato</h2>
-                  <h3>Me envie um email</h3>
-                  <a href="#"><img src="images/Gmail.png" alt="imagem gmail">luisaraujo.dev@gmail.com</a>
-                  <h3>Me envie um Whatsapp</h3>
-                  <a href="#"><img src="images/whatsapp.png" alt="imagem Whatsapp"> +55 (61) 99360-5595</a>
-
+                <input type="submit" value="Enviar" class="btn" />
+              </form>
             </div>
-        </article>
+          </article>
+          <h2 class="title-experiences">Outras formas de contato</h2>
+          <h3>Me envie um email</h3>
+          <div class="container-contact">
+            <a href="#"
+              ><img
+                src="images/Gmail.png"
+                alt="imagem gmail"
+              />luisaraujo.dev@gmail.com</a
+            >
+          </div>
+          <div class="container-contact">
+            <h3>Me envie um Whatsapp</h3>
+            <a href="#"
+              ><img src="images/whatsapp.png" alt="imagem Whatsapp" /> +55 (61)
+              99360-5595</a
+            >
+          </div>
+        </div>
+      </article>
     </main>
-    
-</body>
+  </body>
 </html>

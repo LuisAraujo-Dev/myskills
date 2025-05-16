@@ -222,3 +222,15 @@ input, textarea {
 label {
     padding-top: 1.8rem;
 }
+
+.container-contact a img {
+    height: 5rem;
+}
+
+.container-contact a {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
