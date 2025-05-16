@@ -218,3 +218,7 @@ input, textarea {
 .btn:hover {
     background-color: var(--color-dark);
 }
+
+label {
+    padding-top: 1.8rem;
+}
