@@ -3,6 +3,7 @@
     --secondary-color: #31333B; 
     --secondary-colo-ligth: #444856; 
     --third-color: #a9a7a7;
+    --color-dark: #232323;
 }
 
 html {
@@ -200,4 +201,20 @@ input, textarea {
     border-radius: .5rem;
     margin-top: 1.6rem;
     border: 0;
+}
+
+.row .row {
+    padding: 0;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: solid 2px var(--color-dark);
+    color: #ccc;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-dark);
 }
