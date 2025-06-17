@@ -113,7 +113,6 @@ span {
 
 .container-experiences{
     display: flex;
-    align-items: flex-start;
     gap: 20px;
     align-items: center;
     border-left: solid 1px var(--second-text-green);
@@ -200,6 +199,10 @@ input, textarea {
     border-radius: .5rem;
     margin-top: 1.6rem;
     border: 0;
+}
+
+input::placeholder {
+     color: #090f1d9f;;
 }
 
 .row .row {
