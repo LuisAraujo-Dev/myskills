@@ -1,9 +1,8 @@
 :root {
-    --primary-color: #FF7833;
-    --secondary-color: #31333B; 
-    --secondary-colo-ligth: #444856; 
-    --third-color: #a9a7a7;
-    --color-dark: #232323;
+    --second-text-green: #2f8f50;
+    --dark-blue: #0f172a; 
+    --default-blue: #162340; 
+    --dark-text-gray: #9d9d9d;
 }
 
 html {
@@ -21,14 +20,14 @@ body{
 
 .main-header {
     flex: 0 0 26rem;
-    background-color: var(--secondary-color);
+    background-color: var(--dark-blue);
     flex-direction: column;
     display: flex;
 }
 
 .main {
     flex: 1 0;
-    background-color: var(--secondary-colo-ligth);
+    background-color: var(--default-blue);
     padding: 6.5em 6.5em 7.5rem;
 }
 
@@ -65,24 +64,24 @@ a {
 }
 
 .main-nav ul a:hover, .main-nav a:focus{
-    background-color: var(--secondary-colo-ligth);
+    background-color: var(--default-blue);
     padding-right: 1rem;
 }
 
 .main-nav li {
-    border-bottom: solid 1px var(--third-color);
+    border-bottom: solid 1px var(--dark-text-gray);
     padding: 0.4rem 0;
 }
 
 h1 {
     font-size: 4rem;
-    color: var(--third-color);
+    color: var(--dark-text-gray);
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
 h2, h3, h4, h5, h6{
-    color: var(--primary-color);
+    color: var(--second-text-green);
 }
 
 h2 {
@@ -95,7 +94,7 @@ article {
 }
 
 span {
-    color: var(--primary-color);
+    color: var(--second-text-green);
     font-weight: bold;
 }
 
@@ -117,7 +116,7 @@ span {
     align-items: flex-start;
     gap: 20px;
     align-items: center;
-    border-left: solid 1px var(--primary-color);
+    border-left: solid 1px var(--second-text-green);
 }
 
 .image-experiences{
@@ -135,7 +134,7 @@ span {
 
 .card {
     max-width: 740px;
-    background-color: var(--secondary-color);
+    background-color: var(--dark-blue);
     padding: 0;
 }
 
@@ -196,7 +195,7 @@ input, label, textarea {
 }
 
 input, textarea {
-    background-color: var(--third-color);
+    background-color: var(--dark-text-gray);
     padding: 1.2rem;
     border-radius: .5rem;
     margin-top: 1.6rem;
@@ -208,7 +207,7 @@ input, textarea {
 }
 
 .btn {
-    background-color: var(--secondary-color);
+    background-color: var(--dark-blue);
     border: solid 2px var(--color-dark);
     color: #ccc;
     font-size: 1.2rem;
