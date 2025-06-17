@@ -20,7 +20,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .main-header {
@@ -141,14 +141,14 @@ span {
 }
 
 .card {
-  max-width: 740px;
   background-color: var(--dark-blue);
-  padding: 0;
+  max-width: 600px;
+  padding: 1rem;
   border-radius: 8px;
 }
 
 .card_content {
-  padding: 0.5em 1em 1em;
+  margin: 2rem 1rem;
 }
 
 .card_content p,
@@ -161,23 +161,29 @@ span {
   margin-bottom: 0.5em;
 }
 
+.image-container {
+overflow: hidden; 
+outline: solid white .05rem;
+border-radius: .4rem;
+}
+
 .card img {
   max-width: 100%;
+  min-width: 60rem;
+  height: 34rem;
+  display: block;
+  border-radius: .4rem;
+  transition: all .6s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
 }
 
 .row {
   display: flex;
   gap: 1.5em;
   padding: 1.5rem 0;
-}
-
-.certifications-cards {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
 }
 
 .footer-credit {
@@ -193,7 +199,6 @@ span {
 .footer-credit img {
   padding: 0.4rem;
 }
-
 
 input,
 label,
@@ -251,4 +256,14 @@ label {
 .verse {
   text-align: center;
   margin-top: 4rem;
+}
+
+.certifications {
+
+     display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
 }
