@@ -7,15 +7,13 @@
 
 html {
   font-size: 62.5%;
+  color: var(--dark-text-gray);
 }
 
 body {
   display: flex;
-  margin: 0;
-  color: #e7e7e7;
-  background-color: #ccc;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   min-height: 100vh;
 }
 
@@ -36,6 +34,12 @@ a {
   padding: 6.5em 6.5em 7.5rem;
 }
 
+.header {
+  font-size: 2.4rem;
+  color: var(--second-text-green);
+  margin-bottom: 2rem;
+}
+
 .main-header,
 .main {
   font-size: 1.6rem;
@@ -53,6 +57,19 @@ a {
 .main-nav {
   text-align: right;
   padding: 6rem 2rem 2rem;
+  position: fixed;
+  left: 1rem;
+  width: 200px;
+}
+.footer-credit {
+  margin-top: auto;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 5rem;
+  display: inline-block;
 }
 
 .main-nav ul {
@@ -86,7 +103,6 @@ h1 {
   margin-bottom: 3rem;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -95,7 +111,8 @@ h6 {
 }
 
 h2 {
-  margin-top: 1rem;
+  margin-top: 0;
+  line-height: 0;
 }
 
 article {
@@ -140,9 +157,15 @@ span {
   text-align: justify;
 }
 
+p {
+  color: #e7e7e7;
+}
+
 .card {
   background-color: var(--dark-blue);
+  flex: 1 1 30rem;
   max-width: 600px;
+  min-width: 380px;
   padding: 1rem;
   border-radius: 8px;
 }
@@ -162,40 +185,33 @@ span {
 }
 
 .image-container {
-overflow: hidden; 
-outline: solid white .05rem;
-border-radius: .4rem;
+  overflow: hidden;
+  outline: solid #e7e7e7 0.05rem;
+  border-radius: 0.4rem;
 }
 
 .card img {
   max-width: 100%;
-  min-width: 60rem;
-  height: 34rem;
+  height: auto;
   display: block;
-  border-radius: .4rem;
-  transition: all .6s ease;
+  border-radius: 0.4rem;
+  transition: all 0.6s ease;
 }
 
 .card img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5em;
   padding: 1.5rem 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  justify-content: center;
 }
 
-.footer-credit {
-  margin-top: auto;
-  text-align: center;
-  font-size: 1.6rem;
-  padding-bottom: 2rem;
-  position: fixed;
-  bottom: 0;
-  left: 5rem;
-  display: inline-block;
-}
 .footer-credit img {
   padding: 0.4rem;
 }
@@ -242,6 +258,10 @@ label {
   padding-top: 1.8rem;
 }
 
+.container-contact {
+  gap: 20rem;
+}
+
 .container-contact a img {
   height: 5rem;
 }
@@ -251,6 +271,7 @@ label {
   align-items: center;
   gap: 2rem;
   font-size: 2rem;
+  margin: 2rem auto;
 }
 
 .verse {
@@ -259,8 +280,7 @@ label {
 }
 
 .certifications {
-
-     display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
